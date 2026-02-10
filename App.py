@@ -23,7 +23,7 @@ emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3:
 "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 
-json_file = open('model/emotion_model.json', 'r')
+json_file = open('Video Modal/emotion_model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 classifier = model_from_json(loaded_model_json)
