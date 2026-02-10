@@ -29,7 +29,7 @@ json_file.close()
 classifier = model_from_json(loaded_model_json)
 
 # load weights into new model
-classifier.load_weights("model/emotion_model.h5")
+classifier.load_weights("Video Modal/emotion_model.h5")
 
 #load face
 try:
